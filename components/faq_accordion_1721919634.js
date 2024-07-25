@@ -3,8 +3,8 @@ Vue.component('faq_accordion_1721919634', {
     <div>
       <section class="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8 bg-white">
         <div class="space-y-3 text-center">
-          <h1 class="text-4xl text-gray-800 font-semibold pt-10">FAQ_TITLE_PLACEHOLDER_TEXT</h1>
-          <p class="text-gray-600 max-w-lg mx-auto text-lg">FAQ_SUBTITLE_PLACEHOLDER_TEXT</p>
+          <h1 class="text-4xl text-gray-800 font-semibold pt-10">Your Book Buying Companion</h1>
+          <p class="text-gray-600 max-w-lg mx-auto text-lg">Get answers to all your book-related queries here</p>
         </div>
         <div class="mt-14 max-w-2xl mx-auto">
           <div v-for="(item, index) in faqs" :key="index" class="space-y-5 mt-5 overflow-hidden border-b border-gray-200 hover:bg-gray-50 cursor-pointer" @click="toggleFaq(index)">
@@ -30,24 +30,24 @@ Vue.component('faq_accordion_1721919634', {
       selectedFaq: null,
       faqs: [
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_1",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_1"
+          q: "How does the book ordering process work?",
+          a: "Our book ordering process is simple and convenient. Just browse our extensive collection, add the books you want to your cart, and proceed to checkout. We offer multiple payment options for a seamless experience."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_2",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_2"
+          q: "Do you offer discounts or promotions?",
+          a: "Yes, we frequently run discounts and promotions on select titles and for loyal customers. Keep an eye on our website or sign up for our newsletter to stay updated on the latest offers."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_3",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_3"
+          q: "How long does shipping take?",
+          a: "Shipping times may vary based on your location and the chosen shipping method. We strive to process and dispatch orders promptly, and most domestic orders are delivered within 5-7 business days."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_4",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_4"
+          q: "Can I track my order?",
+          a: "Absolutely! Once your order ships, you'll receive a tracking number that allows you to monitor its progress on our website or directly with the shipping carrier."
         },
         {
-          q: "FAQ_PLACEHOLDER_QUESTION_TEXT_5",
-          a: "FAQ_PLACEHOLDER_ANSWER_TEXT_5"
+          q: "What is your return policy?",
+          a: "We have a hassle-free return policy. If you're not completely satisfied with your purchase, you can return it within 30 days for a full refund or exchange. Please refer to our website for complete details."
         }
       ]
     }
